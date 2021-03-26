@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="post">
+	<select id="selAll" parameterType="Integer" resultType="post.PostDTO">
+		select * from post order by postNum desc limit #{Integer}, 10;
+	</select>
+	<select id="select" resultType="post.PostDTO">
+		select * from post where
+		postNum=#{postNum};
+	</select>
+	<select id="count" resultType="Integer">
+		select count(*) from post;
+	</select>
+	<select id="userPost" resultType="post.PostDTO">
+		select * from post where userId=#{id} order by date desc limit 10;
+	</select>
+	<insert id="insert" parameterType="post.PostDTO">
+		insert into post(userId, board,
+		date, title, content)
+		values(#{userId}, #{board}, #{date},  #{title}, #{content});
+	</insert>
+	<update id="update" parameterType="post.PostDTO">
+		update post set
+		board=#{board}, title=#{title}, content=#{content} where
+		postNum=#{postNum};
+	</update>
+	<delete id="delete" parameterType="Integer">
+		delete from post where
+		postNum=#{postNum};
+	</delete>
+</mapper>

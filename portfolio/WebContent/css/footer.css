@@ -1,0 +1,32 @@
+footer {
+	width: 100%;
+	height: 252px;
+	margin-top: 50px;
+	padding-top: 30px;
+	background-color: #603D20;
+	box-sizing: border-box;
+}
+footer img {
+	margin-right: 20px;
+	float: left;
+}
+footer li {
+	font-size: 12pt;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+#footer_info {
+	font-size: 11pt;
+	clear: left;
+}
+#footer_info p {
+	margin-top: 5px;
+}
+
+.box {
+	width: 1080px;
+	height: auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
