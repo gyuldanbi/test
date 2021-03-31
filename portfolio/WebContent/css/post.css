@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+#post {
+	height: 638px;
+}
+
+#post h4 {
+	width: 100%;
+	padding: 4px 8px;
+	border-bottom: 1px solid #b0b0b0;
+	font-size: 14pt;
+	font-weight: 400;
+	box-sizing: border-box;
+}
+
+#post p {
+	width: 100%;
+	margin-top: 10px;
+	padding: 4px 8px;
+	box-sizing: border-box;
+	font-size: 12pt;
+	font-weight: 300;
+}
+
+#post_btn {
+	margin-top: 0;
+	padding-top: 10px;
+	border-top: 1px solid #b0b0b0;
+	height: 60px;
+	box-sizing: border-box;
+}
+
+#post_btn button {
+	width: 60px;
+	height: 40px;
+}
+
+#list {
+	float: left;
+}
+
+.user {
+	float: right;
+	margin-left: 4px;
+}

@@ -11,16 +11,17 @@
 <head>
 <meta charset="UTF-8">
 <title>책 상세보기</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/BookInfo.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script>
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript">
 $(document).ready(function() {
 	$.ajax({
 		method : "GET",
 		url : "https://dapi.kakao.com/v3/search/book",
 		data : {
-			query : <%= isbn %>,
+			query : <%= isbn%>,
 			target: "isbn"
 		},
 		headers : {
@@ -48,7 +49,7 @@ $(document).ready(function() {
 		method : "GET",
 		url : "https://dapi.kakao.com/v3/search/book",
 		data : {
-			query : <%= isbn %>,
+			query :  <%= isbn%>,
 			target: "isbn"
 		},
 		headers : {
@@ -62,89 +63,7 @@ $(document).ready(function() {
 		}
 	});
 });
-
-function chk() {
-	var qnty = document.getElementsByName("quantity");
-	
-	if(qnty[0].value == '') {
-		alert("수량을 선택하세요");
-		return false;
-	}
-	return true;
-}
-
-function shop(form) {
-	form.action='shoppingList.jsp'
-	form.submit();
-	
-	return true;
-}
 </script>
-
-<style>
-#book {
-	width: 560px;
-	height: 320px;
-	margin: 0 auto;
-	padding-top: 20px;
-	box-sizing: border-box;
-}
-
-#book_img {
-	float: left;
-	margin-top: 30px;
-	margin-right: 20px;
-}
-
-#book table {
-	float: left;
-	margin-left: 20px;
-	text-align: left;
-}
-
-#book th {
-	width: 80px;
-	height: 35px;
-	font-weight: 400;
-}
-
-#book td {
-	width: 320px;
-	font-weight: 300;
-}
-
-#book input[type="number"] {
-	width: 80px;
-}
-
-#book input[type="submit"], #book input[type="button"] {
-	width: 80px;
-	height: 35px;
-	border: none;
-}
-
-#info {
-	width: 960px;
-	margin: 0 auto;
-}
-
-#info h3 {
-	border-bottom: 2px solid #603D20;
-	font-size: 14pt;
-	font-weight: 400;
-}
-
-#info p {
-	padding: 10px;
-	box-sizing: border-box;
-	font-size: 11pt;
-	font-weight: 300;
-}
-
-section {
-	clear: left;
-}
-</style>
 
 <body>
 	<div>

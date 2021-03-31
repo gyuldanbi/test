@@ -10,31 +10,9 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/order.css">
 <title>주문내역</title>
 </head>
-
-<style>
-#myOrder th {
-	background-color: #F0B889;
-	padding: 4px;
-	box-sizing: border-box;
-	font-size: 12pt;
-	font-weight: 400;
-}
-
-#myOrder td {
-	padding: 2px;
-	box-sizing: border-box;
-	font-size: 11pt;
-	font-weight: 300;
-	text-align: center;
-}
-
-#myOrder table {
-	width: 800px;
-	margin: 0 auto;
-}
-</style>
 
 <body>
 	<div>

@@ -1,0 +1,46 @@
+#books {
+	width: 960px;
+
+}
+.book {
+	width: 920px;
+	height: 180px;
+	border: 1px solid #F0B889;
+	border-radius: 15px;
+	padding: 8px;
+	margin: 10px 20px;
+	box-sizing: border-box;
+}
+
+.book img {
+	width: 90px;
+	float: left;
+	margin: 15px;
+}
+
+.book h3 {
+	font-size: 14pt;
+	font-weight: 400;
+	margin-top: 10px;
+	float: left;
+}
+
+.book h4 {
+	font-size: 12pt;
+	font-weight: 300;
+	margin-top: 13px;
+}
+.book h5 {
+	font-size: 11pt;
+	font-weight: 300;
+	color: #404040;
+}
+.book font {
+	font-size: 14pt;
+	font-weight: 400;
+}
+#count p {
+	font-size: 10pt;
+	font-weight: 300;
+	margin-top: 4px;
+}

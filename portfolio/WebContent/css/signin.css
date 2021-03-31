@@ -1,0 +1,113 @@
+@import url("reset.css");
+
+#signin img {
+	float: left;
+	margin-top: 12px;
+}
+
+#signin h2 {
+	background-color: #F0B889;
+	padding: 5px 0;
+	font-size: 16pt;
+	font-weight: 500;
+}
+
+#signin h3 {
+	padding-left: 22px;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+#signin table {
+	font-size: 11pt;
+	margin: 0 auto;
+}
+
+#signin th {
+	width: 160px;
+	font-size: 12pt;
+	font-weight: 400;
+}
+
+#signin td {
+	width: 400px;
+	font-size: 11pt;
+	font-weight: 300;
+	padding: 5px;
+}
+
+#signin input[type="text"], #signin input[type="password"], #signin input[type="date"]
+	{
+	border-style: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #8E8E8E;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px 0px;
+}
+
+#signin input[type="submit"], #signin input[type="reset"] {
+	font-weight: 500;
+	font-size: 12pt;
+	width: 90px;
+	height: 40px;
+	border-style: solid;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+#signin input[type="submit"] {
+	border: 1px solid #F0B889;
+	background-color: #F0B889;
+	color: #613E20;
+}
+
+#signin input[type="reset"] {
+	border: 1px solid #BEBEBE;
+	background-color: #BEBEBE;
+	color: white;
+}
+
+#signin input[type="button"] {
+	width: 100px;
+	border-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: none;
+}
+
+#signin select {
+	border-style: solid;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-color: #8E8E8E;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.line {
+	padding: 15px 0;
+	margin: 5px 0 15px 0;
+	border-top: 2px solid #BEBEBE;
+	border-bottom: 2px solid #BEBEBE;
+	box-sizing: border-box;
+}
+
+#signin {
+	width: 960px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	border: 1px solid #BEBEBE;
+	box-sizing: border-box;
+}

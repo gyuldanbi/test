@@ -9,81 +9,10 @@
 <head>
 <meta charset="UTF-8">
 <title>새 포스트</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/newPost.css" />
 </head>
 
-<style>
-#box {
-	width: 960px;
-	margin: 0 auto;
-}
-
-#postBox input[type="submit"], #postBox input[type="button"] {
-	width: 50px;
-	height: 30px;
-	margin-top: 10px;
-	margin-left: 10px;
-	border-style: none;
-	font-weight: 300;
-}
-
-#postBox input[type="submit"] {
-	color: #613E20;
-	background-color: #F0B889;
-}
-
-#postBox select {
-	width: 15%;
-	height: 40px;
-	border-style: none;
-	float: left;
-}
-
-#postBox input[type="text"] {
-	border-style: none;
-	margin-left: 5%;
-	width: 80%;
-	height: 40px;
-	box-sizing: border-box;
-	font-size: 16pt;
-	font-weight: 400;
-}
-
-#postBox textarea {
-	border-style: none;
-	border-top: 1px solid #b0b0b0;
-	padding: 8px;
-	color: #979797;
-	width: 100%;
-	height: 800px;
-	margin-top: 10px;
-	box-sizing: border-box;
-	resize: none;
-	font-size: 12pt;
-	font-weight: 300;
-	font-size: 12pt;
-}
-
-#postBox {
-	border: 1px solid #b0b0b0;
-	padding: 10px;
-}
-</style>
-
-<script type="text/javascript">
-	function post() {
-		var contents = document.getElementsByClassName("contents");
-
-		for (var i = 0; i < contents.length; i++) {
-			if (contents[i].value === '') {
-				contents[i].focus();
-				alert('빈칸을 채워주세요');
-				return false;
-			}
-		}
-		return true;
-	}
-</script>
+<script type="text/javascript" src="js/function.js"></script>
 
 <body>
 	<div>

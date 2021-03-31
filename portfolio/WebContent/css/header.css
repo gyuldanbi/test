@@ -11,7 +11,7 @@ header img {
 	float: left;
 }
 
-#search {
+#search_box {
 	width: 640px;
 	height: 48px;
 	border: 4px solid #b0b0b0;
@@ -20,15 +20,17 @@ header img {
 	float: left;
 }
 
-#search input[type="text"] {
-	width: 590px;
+#search {
+	width: 580px;
 	height: 36px;
 	border: none;
 	float: left;
 }
 
-#search img {
+#search_box img {
+	float: right;
 	margin-top: 4px;
+	margin-right: 4px;
 }
 
 #btn {
@@ -55,6 +57,7 @@ nav {
 	margin-top: 10px;
 	clear: left;
 	font-size: 16pt;
+	border-bottom: 3px solid #F0B889;
 }
 
 nav img {
@@ -69,13 +72,17 @@ nav li {
 
 nav a:link {
 	text-decoration: none;
-	color: black;	
+	color: black;
+}
+
+nav a:visited {
+	color: black;
 }
 
 #nav_title {
 	padding: 10px;
-	font-size: 18pt;
-	font-weight: 500;
+	font-size: 16pt;
+	font-weight: bold;
 	box-sizing: border-box;
 }
 
@@ -84,4 +91,15 @@ nav a:link {
 	height: auto;
 	margin: 0 auto;
 	box-sizing: border-box;
+}
+
+.header_btn button {
+	width: 72px;
+	height: 32px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.header_btn {
+	float: right;
 }

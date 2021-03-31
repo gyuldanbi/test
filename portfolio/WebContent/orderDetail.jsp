@@ -14,9 +14,10 @@
 <head>
 <meta charset="UTF-8">
 <title>주문하기</title>
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<link rel="stylesheet" type="text/css" href="css/order.css">
 </head>
 
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script>
 $(document).ready(function() {
 	$.ajax({
@@ -35,33 +36,6 @@ $(document).ready(function() {
 	});
 });
 </script>
-
-<style>
-#orderDetail th {
-	background-color: #F0B889;
-	padding: 4px;
-	box-sizing: border-box;
-	font-size: 12pt;
-	font-weight: 400;
-}
-#orderDetail td {
-	padding: 2px;
-	box-sizing: border-box;
-	font-size: 11pt;
-	font-weight: 300;
-	text-align: center;
-}
-#orderDetail table {
-	width: 800px;
-	margin: 0 auto;
-}
-#orderDetail h3 {
-	font-size: 16pt;
-	font-weight: 400;
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
-</style>
 
 <body>
 	<div>

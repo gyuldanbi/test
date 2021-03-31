@@ -14,89 +14,9 @@
 <head>
 <meta charset="UTF-8">
 <title>마이 페이지</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/myPage.css">
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
-
-<style>
-#myPage {
-	width: 960px;
-}
-
-#myPage h2 {
-	font-size: 16pt;
-	font-weight: 500;
-	border-bottom: 2px solid #df7861;
-	margin-bottom: 20px;
-	padding-left: 15px;
-}
-
-#myPage h3 {
-	font-size: 14pt;
-	font-weight: 400;
-	float: left;
-}
-
-#myPage h4 {
-	font-size: 11pt;
-	font-weight: 300;
-	margin-top: 4px;
-	float: right;
-}
-
-#myPage a {
-	color: black;
-	text-decoration: none;
-	font-weight: 400;
-}
-
-#myPage table {
-	width: 100%;
-	font-size: 12pt;
-	font-weight: 300;
-}
-
-#myPage td, #myPage th {
-	padding: 2px 4px; 
-}
-
-.title {
-	height: 35px;
-}
-
-.myInfo {
-	width: 50%;
-	float: left;
-	box-sizing: border-box;
-}
-
-#profile h3 {
-	width: 100%;
-}
-
-#profile table {
-	width: 320px;
-}
-
-#profile th {
-	padding: 10px;
-}
-
-#profile td {
-	padding: 10px;
-}
-
-#myOrder {
-	padding-top: 30px;
-	clear: left;
-}
-
-#myPage article {
-	width: 100%;
-	height: 245px;
-}
-</style>
-
 
 <body>
 	<div>

@@ -1,0 +1,75 @@
+@import url("index.css");
+
+#story {
+	height: 638px;
+}
+
+#emptyArea {
+	height: 638px;
+}
+
+.book_title button {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 14pt;
+	font-weight: 400;
+	float: right;
+}
+
+.post {
+	width: 500px;
+	height: 200px;
+	margin: 10px 10px 5px 22px;
+	padding: 20px;
+	border: 2px solid #ecb390;
+	border-radius: 15px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.post a:link, .post a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.post h4 {
+	font-size: 14pt;
+	font-weight: 400;
+}
+
+.post p {
+	height: 80px;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6e7c7c;
+	padding: 5px;
+	clear: right;
+}
+
+.post h5 {
+	font-size: 11pt;
+	font-weight: 300;
+	color: #aaaaaa;
+	float: right;
+}
+
+#pageList {
+	text-align: center;
+	padding-top: 20px;
+}
+
+#pageList img {
+	width: 20px;
+}
+
+#pageList a {
+	font-size: 14pt;
+	font-weight: 300;
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+#pageList font {
+	font-size: 14pt;
+	font-weight: 400;
+}
