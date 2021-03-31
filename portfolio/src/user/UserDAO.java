@@ -13,7 +13,7 @@ public class UserDAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pf?characterEncoding=utf8", "root",
-					"rbf68636133!");
+					"1177mi");
 		} catch (Exception e) {
 			System.out.println(e);
 		}

@@ -18,22 +18,11 @@ public class BookCtrl extends HttpServlet {
 		String cmd = req.getParameter("command");
 		if (cmd.equals("top")) {
 			try {
-				
 				String keyword = URLDecoder.decode(req.getParameter("keyword"), "UTF-8");
 				int nowPage = Integer.parseInt(req.getParameter("page"));
-				int startPage = (((int) ((double) nowPage / 10 + 0.9)) - 1) * 10 + 1;
-				int endPage = startPage + 10 - 1;
-				int maxPage = 10;
-				
-				if(req.getParameter("maxPage") != null) {
-					maxPage = Integer.parseInt(req.getParameter("maxPage"));
-				}
 				
 				req.setAttribute("keyword", keyword);
 				req.setAttribute("nowPage", nowPage);
-				req.setAttribute("startPage", startPage);
-				req.setAttribute("endPage", endPage);
-				req.setAttribute("maxPage", maxPage);
 
 				String link = "Books.jsp";
 

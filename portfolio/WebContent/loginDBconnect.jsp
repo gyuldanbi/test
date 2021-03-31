@@ -12,7 +12,7 @@
 	Statement stmt = null;
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pf?characterEncoding=utf8", "root", "2357192pm");
+		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pf?characterEncoding=utf8", "root", "1177mi");
 
 		if(conn == null)
 			throw new Exception("asdf");
