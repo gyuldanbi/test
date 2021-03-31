@@ -61,13 +61,18 @@ nav {
 }
 
 nav img {
+	width: 28px;
+	height: 28px;
+	margin-top: 4px;
+	margin-right: 8px;
 	float: left;
-	margin-right: 5px;
 }
 
 nav li {
 	display: inline-block;
 	margin-right: 15px;
+	font-size: 18pt;
+	font-weight: 500;
 }
 
 nav a:link {
@@ -81,8 +86,6 @@ nav a:visited {
 
 #nav_title {
 	padding: 10px;
-	font-size: 16pt;
-	font-weight: bold;
 	box-sizing: border-box;
 }
 

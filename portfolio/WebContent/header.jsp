@@ -11,7 +11,23 @@
 <link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
 
-<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/function.js"></script>
+<script>
+$(function() {
+	$('#search_btn').click(
+			function() {
+				var keyword = $('#search').val();
+				
+				if (keyword.length > 0) {
+					location.href = "search.book?command=top&keyword="
+							+ encodeURI(encodeURIComponent(keyword))
+							+ "&page=1";
+				} else {
+					alert("검색어를 입력해주세요");
+				}
+			})
+});
+</script>
 
 <body>
 	<div class="box">
@@ -46,8 +62,8 @@
 		<div id="nav_title" class="box">
 			<ul>
 				<li><a href="index.jsp"><img src="img/home.png">홈</a></li>
-				<li><a href="store.jsp"><img src="img/shop.png">책방</a></li>
-				<li><a href="post.do?command=story"><img src="img/post.png">이야기</a></li>
+				<li><a href="store.jsp"><img src="img/store.png">책방</a></li>
+				<li><a href="post.do?command=story"><img src="img/story.png">이야기</a></li>
 			</ul>
 		</div>
 	</nav>

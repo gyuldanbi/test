@@ -21,7 +21,7 @@
 	<div class="box">
 		<section>
 			<div class="book_title">
-				<h2>NEW</h2>
+				<h2>찾아온 : 봄</h2>
 				<h5>더보기</h5>
 			</div>
 			<div id="subject1" class="book_contents">
@@ -29,7 +29,7 @@
 		</section>
 		<section>
 			<div class="book_title">
-				<h2>베스트셀러</h2>
+				<h2>요즘 다들 하던데? : 주식</h2>
 				<h5>더보기</h5>
 			</div>
 			<div id="subject2" class="book_contents">
@@ -37,7 +37,7 @@
 		</section>
 		<section>
 			<div class="book_title">
-				<h2>스테디셀러</h2>
+				<h2>코로나가 불러온 변화 : 언택트</h2>
 				<h5>더보기</h5>
 			</div>
 			<div id="subject3" class="book_contents">
@@ -45,7 +45,7 @@
 		</section>
 		<section>
 			<div class="book_title">
-				<h2>실시간 인기도서</h2>
+				<h2>집 안을 바꿔보자 : 인테리어</h2>
 				<h5>더보기</h5>
 			</div>
 			<div id="subject4" class="book_contents">

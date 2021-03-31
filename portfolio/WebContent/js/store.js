@@ -51,7 +51,7 @@ $(document).ready(function() {
 		method : "GET",
 		url : "https://dapi.kakao.com/v3/search/book?target=title",
 		data : {
-			query : "인테리어",
+			query : "언택트",
 			sort : "latest",
 			size : 6,
 			target: "title"
@@ -73,8 +73,7 @@ $(document).ready(function() {
 		method : "GET",
 		url : "https://dapi.kakao.com/v3/search/book?target=title",
 		data : {
-			query : "빅데이터",
-			sort : "latest",
+			query : "인테리어",
 			size : 6,
 			target: "title"
 		},

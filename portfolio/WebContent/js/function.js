@@ -45,3 +45,13 @@ function chk() {
 	}
 	return true;
 }
+
+function btn(num) {
+	if (num == 1) {
+		location.href = "login.jsp";
+	} else if (num == 2) {
+		location.href = "signin.jsp";
+	} else if (num == 3) {
+		location.href = "logout.jsp";
+	}
+}

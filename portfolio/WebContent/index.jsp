@@ -28,7 +28,7 @@
 				<article id="recommendPost">
 					<div class="book_title">
 						<h2>오늘의 포스트</h2>
-						<h5 onclick="location.href='store.jsp'">더보기</h5>
+						<h5 onclick="location.href='post.do?command=story'">더보기</h5>
 					</div>
 					<%
 						PostDAO act = new PostDAO();
@@ -57,7 +57,7 @@
 				<article id="recommendBook">
 					<div class="book_title">
 						<h2>오늘의 책</h2>
-						<h5 onclick="location.href='post.do?command=story'">더보기</h5>
+						<h5 onclick="location.href='store.jsp'">더보기</h5>
 					</div>
 				</article>
 			</section>
